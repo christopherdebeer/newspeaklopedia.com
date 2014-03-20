@@ -1,4 +1,4 @@
-<?php if(($_SERVER['PHP_AUTH_USER'] == file_get_contents( './adminuser.txt' )) AND ($_SERVER['PHP_AUTH_PW'] == file_get_contents( './adminpassword.txt' );)) { 
+<?php if(($_SERVER['PHP_AUTH_USER'] == file_get_contents( './adminuser.txt' )) AND ($_SERVER['PHP_AUTH_PW'] == file_get_contents( './adminpassword.txt' ))) { 
 
 	$words_file = "./words.json";
 	$words_string = file_get_contents( $words_file );
