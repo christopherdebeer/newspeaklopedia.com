@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#Look for the word "wiki" followed by a slash, and then the article title
+RewriteRule ^(ingsoc_assets)($|/) - [L]
+RewriteRule   admin.php$   admin.php   [L]
+RewriteRule   (.+)$   index.php?title=$1   [L]
+</IfModule>

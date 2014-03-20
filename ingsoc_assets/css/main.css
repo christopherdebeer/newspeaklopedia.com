@@ -1,0 +1,14 @@
+
+#p-personal, #p-cactions, #siteNotice {
+	display: none;
+}
+
+#p-logo a {
+	background-image: url('http://christopherdebeer.com/sandbox/newspeaklopedia.com/ingsoc_assets/images/logo.png') !important;
+	background-size: contain;
+}
+
+.censored {
+	color: black !important;
+	background-color: black !important;
+}
